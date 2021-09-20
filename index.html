@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/alert.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styling/alert.css">
+    <link rel="stylesheet" href="./styling/style.css">
     <title>Import at runtime</title>
 </head>
-<body>
-    
+
+    <body>
+        <div class="modeClass">
+        <p>MODE:</p>
+        <input type="radio" id="html" name="fav_language" value="html"><label for="html">Merge</label>
+        <input type="radio" id="html" name="fav_language" value="HTML"><label for="html">Replace</label><br>
+        </div>    
+        
+        
+            <div class="container">
+           <button class="btn" id="importApp1">Import App1</button>
+            <button class="btn" id="removeAPP1">Remove App1</button>
+            <br><button class="btn"id="importApp2">Import App2</button>
+            <button class="btn"id="removeApp2">Remove App2</button>
+            <br><button class="hover btn"id="clearMemmory">Clear memmory</button>
+
+            
+
+                <div class="layouts">
+            <br><button class="btn "id="importWorkspace">Import Workspace</button>
+                <button class="btn"id="importSwimlane">Import Swimlane</button>
+                   <br> <button class="btn "id="ImportGlobalLayouts">Import Global Layouts</button>
+                        <button class="btn"id="removeLayouts">Remove Layouts</button>
+                    </div>
+           </div>
 </body>
 <script type="text/javascript" src="./JS/alertModification.js"></script>
 <script type="test/javascript" src="./JS/desktop-5.7.0.js"></script>

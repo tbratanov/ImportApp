@@ -1,0 +1,98 @@
+body{
+    
+    margin: 8px;
+    padding: 0;
+}
+ 
+html{
+
+    background-color: rgb(181, 201, 196);
+}
+.container{
+        text-align:center;
+        margin-top: 40px;
+    }
+
+    .btn{
+    width: 220px;
+    padding: 10px 15px;
+    font-size:  18px; 
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 4px;
+    font-style:inherit
+ }
+ 
+#importApp1 #removeAPP1{
+    
+        display:flex
+        justify-content:space-evenly;
+    
+    }
+#importApp2 #removeApp2{
+
+        display: flex;
+        justify-content: space-evenly
+
+    }
+ #clearMemmory{
+        text-align: center;
+        transition-duration: 0.5s;
+    }
+    #clearMemmory:hover{
+        background-color:rgb(175, 13, 13);
+
+    }
+#importWorkspace #importSwimlane {
+        border-style: inset;
+        justify-content: space-evenly;
+}
+
+#ImportGlobalLayouts #RemoveLayouts {
+    border-style: inset;
+    justify-content: space-evenly;
+    transition-duration: 0.5s;
+}
+#RemoveLayouts:hover{
+background-color:rgb(175, 13, 13);
+
+}
+
+
+.layouts {
+    padding-top: 2%;
+       }
+
+.modeClass {
+        text-align: center;
+    }
+
+p{
+    background-color:none;
+    text-decoration:underline;
+    text-decoration-style: inherit;
+    text-align: center;
+    margin-top: 90px;
+
+    }
+
+label {
+    background-color: none;
+    text-align: center;
+    margin-top: 15px;
+    text-align: center;
+  
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+

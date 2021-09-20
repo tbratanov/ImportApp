@@ -1,5 +1,5 @@
 Нужен ми е HTML който да има следните бутони:
-- Radial button/drop down - to select either 'Merge' or 'Replace'
+- Radial button/drop down - to select either 'Merge' or 'Replace': mode
 - Import App1
 - Import App2
 - Remove App1
