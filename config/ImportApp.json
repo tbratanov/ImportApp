@@ -1,0 +1,17 @@
+[{
+    "name":"ImportApp",
+    "title":"ImportApp",
+    "type": "window",
+    "ignoreSavedLayout": true,
+    "details":{
+        "url":"http://localhost:4445/index.html",
+        "mode": "html",
+        "top": 200,
+        "left": 200,
+        "minWidth": 500,
+        "minHeight": 500,
+        "maxWidth": 500,
+        "maxHeight": 500
+    }
+}
+]

@@ -41,4 +41,5 @@ function createCustomAlert(txt) {
 
 function removeCustomAlert() {
     document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
+    location.reload();
 }

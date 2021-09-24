@@ -25,7 +25,7 @@ html{
  
 #importApp1 #removeAPP1{
     
-        display:flex
+        display:flex;
         justify-content:space-evenly;
     
     }
@@ -53,27 +53,21 @@ html{
     justify-content: space-evenly;
     transition-duration: 0.5s;
 }
-#RemoveLayouts:hover{
-background-color:rgb(175, 13, 13);
+
+#removeLayouts{
+    text-align: center;
+    transition-duration: 0.5s;
+}
+#removeLayouts:hover{
+    background-color:rgb(175, 13, 13);
 
 }
-
-
 .layouts {
     padding-top: 2%;
        }
 
 .modeClass {
         text-align: center;
-    }
-
-p{
-    background-color:none;
-    text-decoration:underline;
-    text-decoration-style: inherit;
-    text-align: center;
-    margin-top: 90px;
-
     }
 
 label {
