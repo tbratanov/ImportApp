@@ -97,15 +97,15 @@ function getMode() {
 };
 
 async function getGlobalLayouts() {
-    
+
     let layouts = await fetchLayoutsConfigs();
 
     let globalLayouts;
 
-    if(Array.isArray(layouts)) {
+    if (Array.isArray(layouts)) {
         globalLayouts = layouts.filter(filter => filter.type === "Global")
     } else {
-        if(layouts.type === "Global") {
+        if (layouts.type === "Global") {
             globalLayouts = layouts;
         }
     };
@@ -115,39 +115,39 @@ async function getGlobalLayouts() {
 };
 
 async function getWorkspaceLayouts() {
-    
+
     let layouts = await fetchLayoutsConfigs();
 
     let workspaceLayouts;
 
-    if(Array.isArray(layouts)) {
+    if (Array.isArray(layouts)) {
         workspaceLayouts = layouts.filter(filter => filter.type === "Workspace")
     } else {
-        if(layouts.type === "Workspace") {
+        if (layouts.type === "Workspace") {
             workspaceLayouts = layouts;
         }
     };
 
     return workspaceLayouts;
-    
+
 };
 
 async function getCanvasLayouts() {
-    
+
     let layouts = await fetchLayoutsConfigs();
 
     let canvasLayouts;
 
-    if(Array.isArray(layouts)) {
+    if (Array.isArray(layouts)) {
         canvasLayouts = layouts.filter(filter => filter.type === "Swimlane")
     } else {
-        if(layouts.type === "Swimlane") {
+        if (layouts.type === "Swimlane") {
             canvasLayouts = layouts;
         }
     };
 
     return canvasLayouts;
-    
+
 };
 
 function importApps(appGrp) {
@@ -156,7 +156,7 @@ function importApps(appGrp) {
 
     let toImport;
 
-    if(Array.isArray(appGrp)) {
+    if (Array.isArray(appGrp)) {
         toImport = appGrp;
     } else {
         toImport = [appGrp];
@@ -194,7 +194,7 @@ function importLayout(layout) {
 
     mode = getMode();
 
-    if(layout === undefined) {
+    if (layout === undefined) {
         window.alert("No such layout type found!")
     } else if (mode === undefined) {
         window.alert("Mode is not selected, the method will default to mode: Replace!")
@@ -203,7 +203,7 @@ function importLayout(layout) {
 
     let toImport;
 
-    if(Array.isArray(layout)) {
+    if (Array.isArray(layout)) {
         toImport = layout;
     } else {
         toImport = [layout];
@@ -231,7 +231,7 @@ async function importApp2Func() {
 async function removeAPP1Func() {
     let appGroup1 = await fetchAppGroup1();
 
-    if(Array.isArray(appGroup1)) {
+    if (Array.isArray(appGroup1)) {
         appGroup1.forEach((appToRemove) => {
             removeApps(appToRemove.name)
         })
@@ -243,7 +243,7 @@ async function removeAPP1Func() {
 async function removeApp2Func() {
     let appGroup2 = await fetchAppGroup2();
 
-    if(Array.isArray(appGroup2)) {
+    if (Array.isArray(appGroup2)) {
         appGroup2.forEach((appToRemove) => {
             removeApps(appToRemove.name)
         })
@@ -263,7 +263,7 @@ function clearMemmoryFunc() {
 };
 
 async function ImportGlobalLayoutsFunc() {
-    let globalLayouts = await getGlobalLayouts();    
+    let globalLayouts = await getGlobalLayouts();
     importLayout(globalLayouts);
 };
 
@@ -281,27 +281,25 @@ async function removeLayoutsFunc() {
 
     let layoutsToRemove = await fetchLayoutsConfigs();
 
-    if(Array.isArray(layoutsToRemove)) {
+    if (Array.isArray(layoutsToRemove)) {
         layoutsToRemove.forEach((layout) => {
             glue.layouts.get(layout.name, layout.type)
+                .then(() => {
+                    return glue.layouts.remove(layout.type, layout.name);
+                })
+                .catch((err) => {
+                    console.warn(err)
+                });
+        });
+    } else {
+        glue.layouts.get(layoutsToRemove.name, layoutsToRemove.type)
             .then(() => {
-                return glue.layouts.remove(layout.type, layout.name);
+                return glue.layouts.remove(layoutsToRemove.type, layoutsToRemove.name);
             })
             .catch((err) => {
                 console.warn(err)
             });
-        });
-    } else {
-        glue.layouts.get(layoutsToRemove.name, layoutsToRemove.type)
-        .then(() => {
-            return glue.layouts.remove(layoutsToRemove.type, layoutsToRemove.name);
-        })
-        .catch((err) => {
-            console.warn(err)
-        });
     };
-
-
 
     window.alert("Layouts removed!");
 };
