@@ -1,0 +1,29 @@
+[{
+        "title": "Test_Flat",
+        "type": "window",
+        "name": "Test_Flat",
+        "hidden": false,
+        "details": {
+            "url": "about:blank",
+            "mode": "flat",
+            "title": "Test_Flat"
+        },
+        "customProperties": {
+            "folder": "Import_Test"
+        }
+    },
+    {
+        "title": "Test_HTML",
+        "type": "window",
+        "name": "Test_HTML",
+        "hidden": false,
+        "details": {
+            "url": "about:blank",
+            "mode": "html",
+            "title": "Test_HTML"
+        },
+        "customProperties": {
+            "folder": "Import_Test"
+        }
+    }
+]

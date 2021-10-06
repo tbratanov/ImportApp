@@ -1,0 +1,14 @@
+{
+    "title": "Test_Tab",
+    "type": "window",
+    "name": "Test_Tab",
+    "hidden": false,
+    "details": {
+        "url": "about:blank",
+        "mode": "tab",
+        "title": "Test_Tab"
+    },
+    "customProperties": {
+        "folder": "Import_Test"
+    }
+}

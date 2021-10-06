@@ -1,0 +1,493 @@
+[{
+    "type": "Global",
+    "name": "layoutName",
+    "metadata": {},
+    "token": "S1ZXnxo7F",
+    "context": {},
+    "displays": [{
+            "width": 1920,
+            "top": 2,
+            "workingAreaHeight": 1040,
+            "height": 1080,
+            "scale": 1,
+            "displayName": "DISPLAY1",
+            "id": 0,
+            "workingAreaLeft": -1920,
+            "name": 131073,
+            "workingAreaTop": 2,
+            "isPrimary": false,
+            "left": -1920,
+            "workingAreaWidth": 1920
+        },
+        {
+            "width": 2560,
+            "top": 0,
+            "workingAreaHeight": 1400,
+            "height": 1440,
+            "scale": 1,
+            "displayName": "DISPLAY2",
+            "id": 1,
+            "workingAreaLeft": 0,
+            "name": 65592,
+            "workingAreaTop": 0,
+            "isPrimary": true,
+            "left": 0,
+            "workingAreaWidth": 2560
+        }
+    ],
+    "version": 2,
+    "components": [{
+            "application": "Test_Tab",
+            "type": "window",
+            "componentType": "application",
+            "state": {
+                "isCollapsed": false,
+                "createArgs": {
+                    "parentInstanceId": "3228_0"
+                },
+                "tabIndex": -1,
+                "windowState": "Normal",
+                "allowChannels": false,
+                "mode": "tab",
+                "tabGroupId": "pSVyeycQFT",
+                "channelId": "",
+                "restoreSettings": {
+                    "groupId": "3228_g_4_21F8026A",
+                    "groupZOrder": 1,
+                    "groupDisplayId": 65592
+                },
+                "restoreState": "Normal",
+                "bounds": {
+                    "left": 1094,
+                    "top": 304,
+                    "width": 400,
+                    "height": 400,
+                    "right": 1494,
+                    "bottom": 704
+                },
+                "isSticky": true,
+                "parentInstanceId": "3228_0",
+                "instanceId": "3228_12"
+            }
+        },
+        {
+            "application": "Test_Flat",
+            "type": "window",
+            "componentType": "application",
+            "state": {
+                "isCollapsed": false,
+                "createArgs": {
+                    "parentInstanceId": "3228_0"
+                },
+                "windowState": "Normal",
+                "allowChannels": false,
+                "mode": "flat",
+                "channelId": "",
+                "restoreSettings": {
+                    "groupId": "3228_g_4_21F8026A",
+                    "groupZOrder": 1,
+                    "groupDisplayId": 65592
+                },
+                "restoreState": "Normal",
+                "bounds": {
+                    "left": 1498,
+                    "top": 304,
+                    "width": 400,
+                    "height": 400,
+                    "right": 1898,
+                    "bottom": 704
+                },
+                "isSticky": true,
+                "parentInstanceId": "3228_0",
+                "instanceId": "3228_13"
+            }
+        },
+        {
+            "application": "Test_HTML",
+            "type": "window",
+            "componentType": "application",
+            "state": {
+                "isCollapsed": false,
+                "createArgs": {
+                    "parentInstanceId": "3228_0"
+                },
+                "windowState": "Minimized",
+                "allowChannels": false,
+                "mode": "html",
+                "channelId": "",
+                "restoreSettings": {
+                    "groupId": "3228_g_6_5DEEAED1",
+                    "groupZOrder": 2,
+                    "groupDisplayId": 65592
+                },
+                "restoreState": "Maximized",
+                "bounds": {
+                    "left": 1208,
+                    "top": 321,
+                    "width": 400,
+                    "height": 400,
+                    "right": 1608,
+                    "bottom": 721
+                },
+                "isSticky": true,
+                "parentInstanceId": "3228_0",
+                "instanceId": "3228_14"
+            }
+        }
+    ]
+},
+{
+    "name": "layoutName",
+    "type": "Workspace",
+    "token": "2nXv2uJMVe",
+    "components": [{
+        "type": "Workspace",
+        "state": {
+            "children": [{
+                "config": {
+                    "allowDrop": true,
+                    "allowSplitters": true,
+                    "positionIndex": 0,
+                    "frameId": "3228_sf_3",
+                    "workspaceId": "4XiqRMwOEy",
+                    "isPinned": false,
+                    "minWidth": 40,
+                    "maxWidth": 32767,
+                    "minHeight": 100,
+                    "maxHeight": 32767,
+                    "widthInPx": 600,
+                    "heightInPx": 570
+                },
+                "type": "column",
+                "children": [{
+                        "config": {
+                            "allowDrop": true,
+                            "allowSplitters": true,
+                            "positionIndex": 0,
+                            "frameId": "3228_sf_3",
+                            "workspaceId": "4XiqRMwOEy",
+                            "height": 50,
+                            "isPinned": false,
+                            "minWidth": 40,
+                            "maxWidth": 32767,
+                            "minHeight": 50,
+                            "maxHeight": 32767,
+                            "widthInPx": 600,
+                            "heightInPx": 283
+                        },
+                        "type": "row",
+                        "children": [{
+                                "config": {
+                                    "positionIndex": 0,
+                                    "frameId": "3228_sf_3",
+                                    "workspaceId": "4XiqRMwOEy",
+                                    "activeTabIndex": 0,
+                                    "width": 50,
+                                    "height": 50,
+                                    "allowDrop": true,
+                                    "allowDropHeader": true,
+                                    "allowDropLeft": true,
+                                    "allowDropRight": true,
+                                    "allowDropTop": true,
+                                    "allowDropBottom": true,
+                                    "allowExtract": true,
+                                    "showMaximizeButton": true,
+                                    "showEjectButton": true,
+                                    "showAddWindowButton": true,
+                                    "minWidth": 20,
+                                    "maxWidth": 32767,
+                                    "minHeight": 50,
+                                    "maxHeight": 32767,
+                                    "widthInPx": 298,
+                                    "heightInPx": 283
+                                },
+                                "type": "group",
+                                "children": [{
+                                    "type": "window",
+                                    "config": {
+                                        "isMaximized": false,
+                                        "isLoaded": true,
+                                        "isFocused": false,
+                                        "appName": "Test_Tab",
+                                        "frameId": "3228_sf_3",
+                                        "positionIndex": 0,
+                                        "workspaceId": "4XiqRMwOEy",
+                                        "title": "Test_Tab",
+                                        "isSticky": true,
+                                        "allowExtract": true,
+                                        "showCloseButton": true,
+                                        "minWidth": 20,
+                                        "maxWidth": 32767,
+                                        "minHeight": 20,
+                                        "maxHeight": 32767,
+                                        "isChild": false,
+                                        "parentInstanceId": "3228_0",
+                                        "instanceId": "3228_15",
+                                        "widthInPx": 298,
+                                        "heightInPx": 253,
+                                        "context": {}
+                                    }
+                                }]
+                            },
+                            {
+                                "config": {
+                                    "positionIndex": 1,
+                                    "frameId": "3228_sf_3",
+                                    "workspaceId": "4XiqRMwOEy",
+                                    "activeTabIndex": 0,
+                                    "width": 50,
+                                    "allowDrop": true,
+                                    "allowDropHeader": true,
+                                    "allowDropLeft": true,
+                                    "allowDropRight": true,
+                                    "allowDropTop": true,
+                                    "allowDropBottom": true,
+                                    "allowExtract": true,
+                                    "showMaximizeButton": true,
+                                    "showEjectButton": true,
+                                    "showAddWindowButton": true,
+                                    "minWidth": 20,
+                                    "maxWidth": 32767,
+                                    "minHeight": 50,
+                                    "maxHeight": 32767,
+                                    "widthInPx": 297,
+                                    "heightInPx": 283
+                                },
+                                "type": "group",
+                                "children": [{
+                                    "type": "window",
+                                    "config": {
+                                        "isMaximized": false,
+                                        "isLoaded": true,
+                                        "isFocused": false,
+                                        "appName": "Test_HTML",
+                                        "frameId": "3228_sf_3",
+                                        "positionIndex": 0,
+                                        "workspaceId": "4XiqRMwOEy",
+                                        "title": "Test_HTML",
+                                        "isSticky": true,
+                                        "allowExtract": true,
+                                        "showCloseButton": true,
+                                        "minWidth": 20,
+                                        "maxWidth": 32767,
+                                        "minHeight": 20,
+                                        "maxHeight": 32767,
+                                        "isChild": false,
+                                        "parentInstanceId": "3228_0",
+                                        "instanceId": "3228_17",
+                                        "widthInPx": 297,
+                                        "heightInPx": 253,
+                                        "context": {}
+                                    }
+                                }]
+                            }
+                        ]
+                    },
+                    {
+                        "config": {
+                            "positionIndex": 1,
+                            "frameId": "3228_sf_3",
+                            "workspaceId": "4XiqRMwOEy",
+                            "activeTabIndex": 0,
+                            "height": 50,
+                            "allowDrop": true,
+                            "allowDropHeader": true,
+                            "allowDropLeft": true,
+                            "allowDropRight": true,
+                            "allowDropTop": true,
+                            "allowDropBottom": true,
+                            "allowExtract": true,
+                            "showMaximizeButton": true,
+                            "showEjectButton": true,
+                            "showAddWindowButton": true,
+                            "minWidth": 20,
+                            "maxWidth": 32767,
+                            "minHeight": 50,
+                            "maxHeight": 32767,
+                            "widthInPx": 600,
+                            "heightInPx": 282
+                        },
+                        "type": "group",
+                        "children": [{
+                            "type": "window",
+                            "config": {
+                                "isMaximized": false,
+                                "isLoaded": true,
+                                "isFocused": false,
+                                "appName": "Test_Flat",
+                                "frameId": "3228_sf_3",
+                                "positionIndex": 0,
+                                "workspaceId": "4XiqRMwOEy",
+                                "title": "Test_Flat",
+                                "isSticky": true,
+                                "allowExtract": true,
+                                "showCloseButton": true,
+                                "minWidth": 20,
+                                "maxWidth": 32767,
+                                "minHeight": 20,
+                                "maxHeight": 32767,
+                                "isChild": false,
+                                "parentInstanceId": "3228_0",
+                                "instanceId": "3228_16",
+                                "widthInPx": 600,
+                                "heightInPx": 252,
+                                "context": {}
+                            }
+                        }]
+                    }
+                ]
+            }],
+            "config": {
+                "allowDrop": true,
+                "allowDropLeft": true,
+                "allowDropTop": true,
+                "allowDropRight": true,
+                "allowDropBottom": true,
+                "allowExtract": true,
+                "showCloseButton": true,
+                "showSaveButton": true,
+                "allowSplitters": true,
+                "minWidth": 40,
+                "maxWidth": 32767,
+                "minHeight": 100,
+                "maxHeight": 32767,
+                "showAddWindowButtons": true,
+                "showEjectButtons": true,
+                "showWindowCloseButtons": true,
+                "widthInPx": 600,
+                "heightInPx": 570
+            }
+        }
+    }],
+    "version": 2
+},
+{
+    "version": 2,
+    "type": "Swimlane",
+    "name": "layoutName",
+    "token": "0F_a_Gajc",
+    "components": [{
+        "type": "swimlane",
+        "state": {
+            "canvas": {
+                "lanes": [{
+                        "items": [{
+                            "lane": 0,
+                            "positionInLane": 0,
+                            "type": "tab",
+                            "allowAdd": true,
+                            "allowDrop": true,
+                            "allowExtract": true,
+                            "maximized": false,
+                            "items": [{
+                                "lane": 0,
+                                "positionInLane": 0,
+                                "tabIndex": 0,
+                                "selected": true,
+                                "type": "window",
+                                "tabTitle": "Test_Tab",
+                                "tabGroup": "293f32f0-7f34-4f66-9fc7-150c8accda04",
+                                "showTabCloseButton": true,
+                                "maximized": false,
+                                "isSticky": true,
+                                "name": "Test_Tab",
+                                "instanceId": "3228_19",
+                                "disableTileMode": false,
+                                "createArgs": {
+                                    "parentInstanceId": "3228_0"
+                                }
+                            }]
+                        }],
+                        "itemRatios": [
+                            1
+                        ],
+                        "allowDrop": true,
+                        "allowResize": true
+                    },
+                    {
+                        "items": [{
+                            "lane": 1,
+                            "positionInLane": 0,
+                            "type": "tab",
+                            "allowAdd": true,
+                            "allowDrop": true,
+                            "allowExtract": true,
+                            "maximized": false,
+                            "items": [{
+                                "lane": 1,
+                                "positionInLane": 0,
+                                "tabIndex": 0,
+                                "selected": true,
+                                "type": "window",
+                                "tabTitle": "Test_Flat",
+                                "tabGroup": "1c0137f9-c92f-4834-995f-b583ea4247a7",
+                                "showTabCloseButton": true,
+                                "maximized": false,
+                                "isSticky": true,
+                                "name": "Test_Flat",
+                                "instanceId": "3228_20",
+                                "disableTileMode": false,
+                                "createArgs": {
+                                    "parentInstanceId": "3228_0"
+                                }
+                            }]
+                        }],
+                        "itemRatios": [
+                            1
+                        ],
+                        "allowDrop": true,
+                        "allowResize": true
+                    },
+                    {
+                        "items": [{
+                            "lane": 2,
+                            "positionInLane": 0,
+                            "type": "tab",
+                            "allowAdd": true,
+                            "allowDrop": true,
+                            "allowExtract": true,
+                            "maximized": false,
+                            "items": [{
+                                "lane": 2,
+                                "positionInLane": 0,
+                                "tabIndex": 0,
+                                "selected": true,
+                                "type": "window",
+                                "tabTitle": "Test_HTML",
+                                "tabGroup": "5a8f611b-2931-4276-9b0f-0f96121e9c46",
+                                "showTabCloseButton": true,
+                                "maximized": false,
+                                "isSticky": true,
+                                "name": "Test_HTML",
+                                "instanceId": "3228_21",
+                                "disableTileMode": false,
+                                "createArgs": {
+                                    "parentInstanceId": "3228_0"
+                                }
+                            }]
+                        }],
+                        "itemRatios": [
+                            1
+                        ],
+                        "allowDrop": true,
+                        "allowResize": true
+                    }
+                ],
+                "horizontal": false,
+                "caption": "Untitled 1",
+                "laneRatios": [
+                    0.33333333333333337,
+                    0.33333333333333337,
+                    0.3333333333333332
+                ],
+                "selected": false,
+                "frameId": "3228_cf_0",
+                "canvasId": "3228_cv_12"
+            },
+            "context": {},
+            "lastSaveTime": "2021-09-24T07:07:49.192Z"
+        }
+    }],
+    "context": {},
+    "metadata": {}
+}]
